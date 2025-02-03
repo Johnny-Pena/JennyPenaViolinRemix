@@ -1,0 +1,10 @@
+name = "my-remix-app"
+type = "javascript"
+
+account_id = "a79c627cd7928a81f58db010c83560b0"
+workers_dev = true
+compatibility_date = "2023-10-01"
+
+[site]
+bucket = "./public"
+entry-point = "./build"
