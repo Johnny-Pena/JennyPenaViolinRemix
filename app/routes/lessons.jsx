@@ -1,6 +1,6 @@
 import LessonsTitlePage from "../components/LessonsTitlePage";
 import Testimonials from "../components/Testimonials";
-import FAQ from "../components/faq";
+import FAQ from "../components/FAQ";
 import PricingCard from "../components/pricingCard";
 
 export const meta = () => {
