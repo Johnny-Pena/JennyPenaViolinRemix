@@ -4,7 +4,7 @@
 module.exports = {
   appDirectory: "app",
   assetsBuildDirectory: "public/build",
-  serverBuildPath: "functions/[[path]].js",
+  serverBuildPath: "build/server/index.js",
   publicPath: "/build/",
   server: "./server.js",
   serverConditions: ["worker"],
