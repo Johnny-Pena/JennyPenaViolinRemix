@@ -1,9 +1,11 @@
 /**
  * @type {import('@remix-run/dev').AppConfig}
  */
-export default {
+module.exports = {
   appDirectory: "app",
   assetsBuildDirectory: "public/build",
-  serverBuildPath: "build/index.js",
+  serverBuildPath: "functions/[[path]].js",
   publicPath: "/build/",
+  server: "./server.js",
+  serverConditions: ["worker"],
 };
