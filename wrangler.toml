@@ -8,3 +8,9 @@ compatibility_date = "2023-10-01"
 [site]
 bucket = "./public"
 entry-point = "./build"
+
+[build]
+command = "npm run build"
+cwd = "."
+watch_dir = "src"
+pages_build_output_dir = "./build"
