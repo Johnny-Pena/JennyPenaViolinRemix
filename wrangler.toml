@@ -12,3 +12,6 @@ bucket = "./build/client"
 command = "npm run build"
 
 compatibility_flags = ["nodejs_compat"]
+
+# Ensure Cloudflare Pages recognizes this configuration
+pages_build_output_dir = "./build/client"

@@ -6,6 +6,6 @@ module.exports = {
   assetsBuildDirectory: "public/build",
   serverBuildPath: "build/server/index.js",
   publicPath: "/build/",
-  server: "./build/server/index.js",
+  server: "./server.js",
   serverConditions: ["worker"],
 };
