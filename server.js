@@ -1,4 +1,4 @@
-const { createRequestHandler } = require("@remix-run/cloudflare-pages");
+import { createRequestHandler } from "@remix-run/cloudflare-pages";
 
 const handleRequest = createRequestHandler({
   getLoadContext() {
@@ -6,6 +6,8 @@ const handleRequest = createRequestHandler({
   },
 });
 
-addEventListener("fetch", (event) => {
-  event.respondWith(handleRequest(event));
-});
+export default {
+  async fetch(request, env, ctx) {
+    return handleRequest(request, env, ctx);
+  },
+};
