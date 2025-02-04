@@ -11,5 +11,4 @@ bucket = "./build/client"
 [build]
 command = "npm run build"
 
-[compatibility_flags]
 compatibility_flags = ["nodejs_compat"]
