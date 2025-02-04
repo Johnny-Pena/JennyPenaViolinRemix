@@ -1,7 +1,0 @@
-build:
-  command: npm run build
-  output_directory: ./build/client
-
-workers:
-  - name: my-remix-app
-    entrypoint: ./build/server/index.js

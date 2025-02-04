@@ -9,3 +9,5 @@ bucket = "./build/client"
 
 [build]
 command = "npm run build"
+
+main = "./build/server/index.js"
