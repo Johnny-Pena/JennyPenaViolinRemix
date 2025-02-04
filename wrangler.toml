@@ -1,7 +1,7 @@
 name = "my-remix-app"
 account_id = "a79c627cd7928a81f58db010c83560b0"
 workers_dev = true
-compatibility_date = "2023-10-01"
+compatibility_date = "2024-09-23"
 
 main = "./build/server/index.js"
 
