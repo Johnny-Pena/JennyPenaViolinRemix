@@ -4,10 +4,11 @@ account_id = "a79c627cd7928a81f58db010c83560b0"
 workers_dev = true
 compatibility_date = "2023-10-01"
 
+main = "./build/server/index.js"
+
 [site]
 bucket = "./build/client"
 
 [build]
 command = "npm run build"
 
-main = "./build/server/index.js"
