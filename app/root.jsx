@@ -55,10 +55,10 @@ export default function App() {
   }, []);
 
   return (
-    <div>
+    <Layout>
       <Navbar />
       <Outlet />
       <Footer />
-    </div>
+    </Layout>
   );
 }
